@@ -3,7 +3,7 @@ set(FILES
 	"${CMAKE_CURRENT_SOURCE_DIR}/IStudioDeclaration.hpp"
 	"${CMAKE_CURRENT_SOURCE_DIR}/Types.hpp"
 )
-set(SUBDIRECTORIES "Lang" "Test")
+set(SUBDIRECTORIES "Lang" "Test" "Util")
 set(RELATIVE_PATH "include/IStudio")
 
 #Add all subdirectories

@@ -7,6 +7,7 @@ int main()
     using namespace std;
     using namespace IStudio;
     using namespace IStudio::Lang;
+    using namespace IStudio::Util;
     using namespace boost::ut;
 
     ////////////////////////////////////////////////////////
@@ -39,6 +40,8 @@ int main()
         expect(d1 == d1);
     };
 
-
-    return 0;
+    "SharedPtr"_test = [] {
+        SharedPtr<Integer> s = SharedPtr<Integer>::makeShared(10);
+    }; 
+    return 0; 
 }

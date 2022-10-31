@@ -64,6 +64,7 @@ public:
         return old;    // return old value
     }
 
+    
 
     friend class Double;
     friend class string;

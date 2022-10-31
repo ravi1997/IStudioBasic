@@ -1,8 +1,8 @@
 set(FILES
-	"${CMAKE_CURRENT_SOURCE_DIR}/Test.hpp"
+	"${CMAKE_CURRENT_SOURCE_DIR}/SharedPtr.hpp"
 )
 set(SUBDIRECTORIES "")
-set(RELATIVE_PATH "include/IStudio/Test")
+set(RELATIVE_PATH "include/IStudio/Util")
 
 #Add all subdirectories
 foreach(VAR ${SUBDIRECTORIES})
