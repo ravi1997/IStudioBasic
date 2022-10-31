@@ -1,0 +1,1 @@
+include("@CMAKE_INSTALL_PREFIX@/@ISTUDIO_CONFIG_DIR@/IStudio-Exports.cmake")
